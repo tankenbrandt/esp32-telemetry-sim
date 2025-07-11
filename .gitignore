@@ -1,0 +1,21 @@
+# Arduino (ino builds)
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.d
+*.o
+
+# Arduino IDE junk
+*.dep
+*.log
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Mac system files
+.DS_Store
