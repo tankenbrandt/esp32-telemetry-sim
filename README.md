@@ -18,20 +18,21 @@ This project is a **telemetry system** built with **ESP32 microcontrollers** and
 ## System Overview
 
 [BME280 + MPU6050 Sensors] → [ESP32 Transmitter + LoRa]
-↓ (LoRa wireless)
+--> (LoRa wireless) -->
 [ESP32 Receiver + LoRa] → [OLED Display]
+
 
 ## Repository Structure
 
 esp32-telemetry-sim/
 ├── src/
-│ ├── transmitter/
-│ │ └── telemetry-transmitter.ino
-│ └── receiver/
-│ └── telemetry-receiver.ino
+│   ├── transmitter/
+│   │   └── telemetry-transmitter.ino
+│   └── receiver/
+│       └── telemetry-receiver.ino
 ├── docs/
-│ ├── diagram.png
-│ ├── demo.gif
+│   ├── diagram.png
+│   └── demo.gif
 ├── README.md
 └── LICENSE
 
