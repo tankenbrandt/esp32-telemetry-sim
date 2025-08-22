@@ -22,17 +22,12 @@ This project is a **telemetry system** built with **ESP32 microcontrollers** and
 [ESP32 Receiver + LoRa] → [OLED Display]
 
 
-## Repository Structure
+## Fritzing Diagram & Key
 
-esp32-telemetry-sim/
-├── src/
-│   ├── transmitter/
-│   │   └── telemetry-transmitter.ino
-│   └── receiver/
-│       └── telemetry-receiver.ino
-├── docs/
-│   ├── diagram.png
-│   └── demo.gif
-├── README.md
-└── LICENSE
+- Top breadboard is transmitter, bottom is receiver
+- Red wires for power, Black for ground
+- Green and Blue wires for SCL and SDA (I2C communication)
+- Orange for SPI LoRa communication
+  
+<img width="737" height="427" alt="Screenshot 2025-08-22 at 10 24 25 AM" src="https://github.com/user-attachments/assets/981686e3-c53a-4a7b-bebf-e2b4186051cf" />
 
