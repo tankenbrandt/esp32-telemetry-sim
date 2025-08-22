@@ -28,6 +28,7 @@ This project is a **telemetry system** built with **ESP32 microcontrollers** and
 - Red wires for power, Black for ground
 - Green and Blue wires for SCL and SDA (I2C communication)
 - Orange for SPI LoRa communication
-  
-<img width="737" height="427" alt="Screenshot 2025-08-22 at 10 24 25 AM" src="https://github.com/user-attachments/assets/981686e3-c53a-4a7b-bebf-e2b4186051cf" />
+
+<img width="622" height="610" alt="Screenshot 2025-08-22 at 11 08 21 AM" src="https://github.com/user-attachments/assets/3423a948-cd58-4df8-b0cf-c4ad9769c45e" />
+
 
